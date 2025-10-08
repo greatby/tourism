@@ -1,10 +1,21 @@
+import DestinationCarousel from '@/components/Carousel'
+import FooterLP from '@/components/Footer'
+import HeroSection from '@/components/Hero'
+import InternalPromotions from '@/components/InternalPromotion'
+import Navbar from '@/components/Navbar'
+import TravelSection from '@/components/TravelSection'
 import React from 'react'
 
 const Page = () => {
   return (
-    <div className='text-8xl'>
-      hello!
-    </div>
+    <>
+    <Navbar />
+    <HeroSection />
+    <TravelSection />
+    <InternalPromotions />
+    <DestinationCarousel />
+    <FooterLP />
+    </>
   )
 }
 
